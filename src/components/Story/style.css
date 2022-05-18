@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    gap: 16px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.story-border {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: double 2px transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #C32D90 13.46%, #E34362 45.62%, #F57938 67.95%, #F99D4C 83.64%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.img-user-story {
+    border: 2px solid var(--background);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-elements span {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.user-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

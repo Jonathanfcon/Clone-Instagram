@@ -1,0 +1,35 @@
+.MainGrid {
+    display: grid;
+    
+    grid-template-areas: "firstColumn secondColumn";
+    grid-template-columns: 643px 293px;
+
+    grid-gap: 50px;
+
+    max-width: 957px;
+    margin: 0 auto;
+    margin: 85px auto;
+}
+
+.storyBox {
+    background: var(--background);
+    border:  1px solid var(--border);
+    border-radius: 5px;
+}
+
+.postBox {
+    background: var(--background-main);
+    margin: 30px 0px;
+}
+
+.suggestionBox {
+    border:  1px solid #131313;
+    border-radius: 5px;
+    background: #0a0a0a;
+    flex: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 298px;
+    position: fixed;
+
+}
